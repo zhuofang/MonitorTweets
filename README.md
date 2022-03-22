@@ -1,6 +1,6 @@
 # AWS MonitorTweets
 
-## The AWS Twitter Monitors
+## The AWS Twitter Monitors (tested 2022)
 
 ### 1.	Requesting Twitter stream from Twitter API
 Use twitter developer’s credentials to request real time twitter stream and filter the stream using keywords of interest.
