@@ -20,6 +20,8 @@ Monitor usage of each shard and automatically close a redundant shard or open a 
 ### 4.	Storing the tweets in Kinesis stream to an S3 bucket
 Put all tweets got from the past 10 minutes in a JSON file and store it in an S3 bucket. The reading limit of a shard is 2 MB/s.
 
+Create a Kinesis delivery stream with the given lambda function. 
+
 ### 5.	Pushing the JSON files in S3 bucket to a Box folder
 Every hour, the new JSON files in the S3 bucket are pushed to Box FTP, so that the target Box folder will be updated once an hour and is available to all team members.
 
